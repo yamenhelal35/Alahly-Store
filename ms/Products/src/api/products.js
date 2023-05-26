@@ -105,7 +105,7 @@ module.exports = (app) => {
 
             PublishCustomerEvent(data);
            
-            return res.status(200).json(data.data.product);
+            return res.status(500).json(data.data.product);
         } catch (err) {
             
         }

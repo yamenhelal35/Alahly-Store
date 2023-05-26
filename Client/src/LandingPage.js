@@ -7,7 +7,7 @@ import './App.css'
 export default function LandingPage() {
     return (
         <header className='all' style={ HeaderStyle }>
-            <h1 className="main-title text-center">Welcome To Vêtements</h1>
+            <h1 className="main-title text-center">Welcome To AlAhly Store</h1>
             <h1 className="main-para text-center">Join us now</h1>
             <div className="buttons text-center">
                 <Link to="/login">
@@ -24,7 +24,7 @@ export default function LandingPage() {
 const HeaderStyle = {
     width: "100%",
     height: "100vh",
-    background: `url('../images/wel.jpg')`,
+    background: `url('../images/ahly.jpg')`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
    

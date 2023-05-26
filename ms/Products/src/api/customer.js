@@ -83,7 +83,7 @@ module.exports = (app) => {
         try {
             const { _id } = req.user;
             const { data } = await service.GetWishList( _id);
-            return res.status(200).json(data);
+            return res.status(500).json(data);
             
         } catch (err) {
             next(err)

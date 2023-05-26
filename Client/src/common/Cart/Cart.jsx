@@ -81,7 +81,6 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                         <button className='removeCart' onClick={(event) => {
 
                           fetch(`http://localhost:8000/cart/${item._id}`, {
-                            //fetch(`http://vetements4-env.eba-djbmqqrc.us-east-1.elasticbeanstalk.com/cart/${item._id}`, {
                             method: 'delete',
                             headers: {
                               ...headers
@@ -108,7 +107,6 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                           x += 1
                           items.unit = x
                           fetch(`http://localhost:8000/cart`, {
-                           // fetch(`http://vetements4-env.eba-djbmqqrc.us-east-1.elasticbeanstalk.com/cart`, {
                             method: 'PUT',
                             headers: {
                               ...headers,
@@ -136,7 +134,6 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
 
                           if (x == 0) {
                             fetch(`http://localhost:8000/cart/${item._id}`, {
-                              //fetch(`http://vetements4-env.eba-djbmqqrc.us-east-1.elasticbeanstalk.com/cart/${item._id}`, {
                               method: 'delete',
                               headers: {
                                 ...headers
@@ -151,7 +148,6 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                           }
                           else {
                             fetch(`http://localhost:8000/cart`, {
-                              //fetch(`http://vetements4-env.eba-djbmqqrc.us-east-1.elasticbeanstalk.com/cart`, {
                               method: 'PUT',
                               headers: {
                                 ...headers,
@@ -195,7 +191,6 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                 {(event) => {
 
                   fetch(`http://localhost:8000/shopping/order`, {
-                   // fetch(`http://vetements4-env.eba-djbmqqrc.us-east-1.elasticbeanstalk.com/shopping/order`, {
                     method: 'POST',
                     headers: {
                       ...headers,
