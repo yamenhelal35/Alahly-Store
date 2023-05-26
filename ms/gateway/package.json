@@ -1,0 +1,24 @@
+{
+    "name": "gateway",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=prod nodemon src/index.js",
+        "dev": "NODE_ENV=dev nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bson": "^5.3.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "express-http-proxy": "^1.6.3",
+        "jsonwebtoken": "^9.0.0",
+        "react-scripts": "^5.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}

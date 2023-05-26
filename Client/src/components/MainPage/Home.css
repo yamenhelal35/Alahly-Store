@@ -1,0 +1,54 @@
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* .homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+} */
+
+.btn-primary {
+  background-color:  #910c0c;
+border-radius: 100px;
+box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(0, 0, 0, 0.15) 0 1px 2px,rgba(0, 0, 0, 0.15) 0 2px 4px,rgba(0, 0, 0, 0.15) 0 4px 8px,rgba(0, 0, 0, 0.15) 0 8px 16px,rgba(0, 0, 0, 0.15) 0 16px 32px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+padding: 7px 20px;
+text-align: center;
+text-decoration: none;
+transition: all 250ms;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.btn-primary:hover{
+  box-shadow: rgba(7, 7, 7, 0.35) 0 -25px 18px -14px inset,rgba(12, 12, 12, 0.25) 0 1px 2px,rgba(7, 7, 7, 0.25) 0 2px 4px,rgba(255, 255, 255, 0.25) 0 4px 8px,rgba(12, 12, 12, 0.25) 0 8px 16px,rgba(12, 12, 12, 0.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+
